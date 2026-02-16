@@ -20,7 +20,6 @@ func main() {
 	router := gin.Default()
 
 	routes.RegisterRoutes(router)
-
 	port := os.Getenv("PORT")
 
 	if err := router.Run(fmt.Sprintf(":%v", port)); err != nil {
