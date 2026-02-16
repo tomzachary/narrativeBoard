@@ -1,0 +1,31 @@
+# Binaries for programs and plugins
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+
+# Test binary, can be ignored
+*_test
+
+# Output of the go build command
+/bin/
+/dist/
+
+# Output of the go mod vendor command (optional, depending on your project's needs)
+# comment out the next line to commit vendor/
+#/vendor/
+
+# Environment files
+.env
+
+# IDE-specific files and directories
+# Visual Studio Code
+.vscode/
+
+# JetBrains IDEs (GoLand, IntelliJ, etc.)
+.idea/
+
+# Operating system files
+.DS_Store
+Thumbs.db
