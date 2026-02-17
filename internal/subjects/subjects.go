@@ -8,13 +8,12 @@ import (
 	"github.com/gin-gonic/gin"
 )
 
-
 func RegisterSubjectsEndpoints(eng *gin.Engine) {
-	eng.GET("/subjects", func (c *gin.Context) {
+	eng.GET("/subjects", func(c *gin.Context) {
 		c.IndentedJSON(http.StatusOK, "Subjects")
 	})
 
-	eng.GET("/subjects/:id", func (c *gin.Context) {
+	eng.GET("/subjects/:id", func(c *gin.Context) {
 		returnedString := "testing"
 		var waitGroup sync.WaitGroup
 		waitGroup.Add(1)
