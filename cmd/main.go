@@ -10,7 +10,7 @@ import (
 	//gin http support
 	"github.com/gin-gonic/gin"
 
-	"narrativereddit.local/routes"
+	"narrativeboard/internal/routes"
 )
 
 func main() {

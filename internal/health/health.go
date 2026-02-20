@@ -5,9 +5,10 @@ import (
 	"fmt"
 	"net/http"
 
+	"narrativeboard/internal/database"
+
 	"github.com/gin-gonic/gin"
 	"github.com/jackc/pgx/v5"
-	"narrativereddit.local/database"
 )
 
 func RegisterHealthEndpoints(router *gin.Engine) {

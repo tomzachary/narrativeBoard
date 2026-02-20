@@ -1,9 +1,0 @@
-go 1.26.0
-
-use (
-	./cmd
-	./internal/database
-	./internal/health
-	./internal/routes
-	./internal/subjects
-)

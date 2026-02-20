@@ -1,8 +1,8 @@
 package routes
 
 import (
-	"narrativereddit.local/health"
-	"narrativereddit.local/subjects"
+	"narrativeboard/internal/health"
+	"narrativeboard/internal/subjects"
 
 	"github.com/gin-gonic/gin"
 )
